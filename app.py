@@ -38,8 +38,6 @@ def cadastro_livro():
 def cadastro_livro():
     return "Formulário de cadastro de livros"
 
-
-
 if __name__ == "__main__":
     app.run(debug=True)
     
