@@ -10,7 +10,7 @@ def home():
 def status():
     return jsonify({"status": "ok"})
 
-@app.route("/api")
+@app.route("/api"
 def api():
     return jsonify({"message": "API CI/CD funcionando!"})
 
